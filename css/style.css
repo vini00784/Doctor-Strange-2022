@@ -6,4 +6,19 @@ body {
     background-size: cover;
     background-position: right;
     background-blend-mode: darken;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 120px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    height: 80px;
 }
