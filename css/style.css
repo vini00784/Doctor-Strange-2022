@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #ff031a;
+}
+
 body {
     height: 100vh;
     background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000), 
@@ -9,16 +13,12 @@ body {
 
     display: flex;
     flex-direction: column;
-}
 
-header {
-    height: 120px;
-}
-
-main {
-    flex-grow: 1;
+    padding: 0 128px;
 }
 
 footer {
     height: 80px;
+
+    background-color: violet;
 }
