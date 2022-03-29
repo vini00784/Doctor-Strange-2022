@@ -3,7 +3,7 @@ main {
     display: flex;
     font-family: 'Mulish', sans-serif;
 
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 
 .content-container {
@@ -11,8 +11,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
     
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .content-container h1 {
@@ -20,6 +21,11 @@ main {
     flex-direction: column;
     font-size: 8rem;
     line-height: 4.5rem;
+    color: #FFF;
+}
+.content-container h1 span {
+    font-size: 2.5rem;
+    font-weight: 200;
 }
 
 .movie-title {
@@ -29,11 +35,22 @@ main {
 
 .movie-text {
     width: 600px;
+    font-size: 1.1rem;
+    color: #FFF;
+    font-weight: 200;
 }
 
-.content-container h1 span {
-    font-size: 2.5rem;
-    font-weight: 200;
+.button {
+    height: 80px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .social-container {
