@@ -1,1 +1,1 @@
-# Doctor-Strange-2022
+# Strange 2022
