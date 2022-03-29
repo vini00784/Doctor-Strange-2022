@@ -1,4 +1,9 @@
 body {
     height: 100vh;
-    background-image: url(../imgs/backgrounds/background-home.png);
+    background: linear-gradient(90deg, #000, #000E 30%, #000A 50%, #0000), 
+                url(../imgs/backgrounds/background-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: darken;
 }
