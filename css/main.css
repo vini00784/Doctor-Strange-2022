@@ -1,0 +1,43 @@
+main {
+    flex-grow: 1;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+
+    background-color: tomato;
+}
+
+.content-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: brown;
+}
+
+.content-container h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    line-height: 4.5rem;
+}
+
+.movie-title {
+    color: var(--accent-color);
+    font-size: 3rem;
+}
+
+.movie-text {
+    width: 600px;
+}
+
+.content-container h1 span {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.social-container {
+    width: 48px;
+
+    background-color: lightgreen;
+}
