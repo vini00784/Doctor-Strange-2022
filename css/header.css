@@ -29,4 +29,5 @@ header {
 
 .links-container a:hover {
     background-color: var(--accent-color);
+    padding: 5px;
 }
