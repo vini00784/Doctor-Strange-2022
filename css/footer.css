@@ -2,9 +2,7 @@ footer {
     height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-weight: 80;
-    /* background-color: violet; */
 }
 
 footer span{
