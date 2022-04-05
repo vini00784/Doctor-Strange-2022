@@ -12,3 +12,17 @@ body {
 
     padding: 0 128px;
 }
+
+.imgs-container {
+    height: 617px;
+    width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+
+    background-color: hotpink;
+}
+
+.img-content {
+    height: 50px;
+}
