@@ -13,16 +13,31 @@ body {
     padding: 0 128px;
 }
 
-.imgs-container {
-    height: 617px;
-    width: 1184px;
+main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    padding-top: 60px;
+}
+
+.imgs-container {
+    height: 720px;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    align-items: center ;
 
     background-color: hotpink;
 }
+.imgs-org {
+    display: flex;
+    justify-content: center;
+}
 
 .img-content {
-    height: 50px;
+    height: 280px;
+    width: 280px;   
 }
