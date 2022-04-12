@@ -12,3 +12,17 @@ body {
 
     padding: 0 128px;
 }
+
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.video-container{
+    display: flex;
+}
+
+div iframe {
+    align-items: center;
+}
