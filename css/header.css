@@ -37,6 +37,23 @@ header {
         height: 70px;
     }
     .links-container{
-        display: none;
+        background-color: black;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        gap: 65px;
+        font-size: 2.5rem;
+        font-weight: 300;
+        transform: translate(100%);
+        transition: all 1s;
+    }
+    .menu-burger-container:hover ~ .links-container {
+        transform: translate(0);
     }
 }
