@@ -27,15 +27,15 @@
     transform: translateY(12px);
 }
 
-.menu-burger-container:hover .menu-burger {
+.menu-burger-container.show .menu-burger {
     background-color: transparent;
 }
 
-.menu-burger-container:hover .menu-burger::before {
+.menu-burger-container.show .menu-burger::before {
     transform: rotate(45deg);
 }
 
-.menu-burger-container:hover .menu-burger::after {
+.menu-burger-container.show .menu-burger::after {
     transform: rotate(-45deg);
 }
 @media (max-width:768px) {

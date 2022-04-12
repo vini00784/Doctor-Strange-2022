@@ -53,7 +53,7 @@ header {
         transform: translate(100%);
         transition: all 1s;
     }
-    .menu-burger-container:hover ~ .links-container {
+    .menu-burger-container.show ~ .links-container {
         transform: translate(0);
     }
 }
