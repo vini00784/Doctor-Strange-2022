@@ -38,6 +38,7 @@ main {
     height: 280px;
     width: 280px;
     transition: all 0.7s;
+    border-radius: 60px;
 }
 
 .img-content:hover {
