@@ -18,7 +18,6 @@ main {
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    padding-top: 60px;
 }
 
 .imgs-container {
@@ -28,16 +27,19 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-
-    background-color: hotpink;
+    justify-content: center;
 }
 .imgs-org {
+    gap: 172px;
     display: flex;
-    justify-content: center;
 }
 
 .img-content {
     height: 280px;
-    width: 280px;   
+    width: 280px;
+    transition: all 0.7s;
+}
+
+.img-content:hover {
+    transform: scale(1.1);
 }
