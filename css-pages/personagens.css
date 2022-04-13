@@ -12,3 +12,39 @@ body {
 
     padding: 0 128px;
 }
+
+main {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagens {
+    height: 426;
+    width: 1185;
+    background-color: hotpink;
+}
+
+.personagem-container {
+    height: 415;
+    width: 240;
+    position: absolute;
+}
+
+.ret-personagem {
+    /* z-index: 1; */
+    position: absolute;
+}
+
+
+
+
+
+
+
+.strange {
+    height: 247;
+    width: 215;
+    z-index: 1;
+}
