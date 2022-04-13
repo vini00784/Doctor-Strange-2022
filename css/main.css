@@ -82,6 +82,7 @@ main {
 .social-container li:hover {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+    transform: scale(1.2);
 }
 
 .social-container i {
