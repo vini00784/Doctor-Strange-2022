@@ -17,10 +17,16 @@ main {
     display: flex;
     flex-grow: 1;
     justify-content: center;
+    align-items: center;
 }
 
 .video-container{
     display: flex;
+    border: 5px solid #FFF;
+    transition: 0.7s all;
+}
+.video-container:hover {
+    border: 5px solid var(--accent-color);
 }
 
 div iframe {
