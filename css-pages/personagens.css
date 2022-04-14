@@ -21,30 +21,19 @@ main {
 }
 
 .personagens {
-    height: 426;
-    width: 1185;
-    background-color: hotpink;
-}
+    height: 620px;
+    width: 1600px;
 
-.personagem-container {
-    height: 415;
-    width: 240;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: absolute;
+
+    background-color: aqua;
 }
 
-.ret-personagem {
-    /* z-index: 1; */
+.retangulo-container {
     position: absolute;
-}
-
-
-
-
-
-
-
-.strange {
-    height: 247;
-    width: 215;
     z-index: 1;
 }
+
