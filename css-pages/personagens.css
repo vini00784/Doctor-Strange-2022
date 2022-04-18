@@ -14,6 +14,7 @@ body {
 }
 
 main {
+    padding-top: 50px;
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -23,17 +24,60 @@ main {
 .personagens {
     height: 620px;
     width: 1600px;
+    gap: 15px;
+    padding-bottom: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* background-color: aqua; */
+}
+
+.personagem-container{
+    z-index: 1;
+}
+
+.retangulo-container {
+    height: 620px;
+    width: 1650px;
+    gap: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    /* background-color: hotpink; */
+}
+
+
+.ret-personagem {
+    height: 267px;
+    width: 240px;
+}
+
+.names-container {
+    height: 620px;
+    width: 1650px;
+    gap: 60px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute;
 
-    background-color: aqua;
+    /* backgroun    d-color: hotpink; */
+}
+.content-name {
+    height: 267px;
+    width: 240px;
 }
 
-.retangulo-container {
-    position: absolute;
-    z-index: 1;
+.wanda {
+    padding-right: 50px;
+}
+
+.mordo {
+    padding-right: 55px;
 }
 
