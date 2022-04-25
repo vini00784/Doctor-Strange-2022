@@ -32,3 +32,20 @@ main {
 div iframe {
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    iframe {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 0 30px;
+        background-color: #0009;
+        background-image: url(../imgs/backgrounds/backgroung-vídeos.jpg);
+        background-blend-mode: darken;
+        background-position: 90%;
+    }
+}
