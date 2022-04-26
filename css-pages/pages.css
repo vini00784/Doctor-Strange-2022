@@ -1,3 +1,8 @@
 :root {
     --accent-color: #ff031a;
 }
+
+body, html {
+    position: relative;
+    overflow: hidden;
+}
